@@ -38,10 +38,11 @@ Este repositorio contiene los siguientes scripts esenciales para la operatividad
 
 ## 5. Instrucciones para Levantar el Proyecto
 
-1.  **Clonar este Repositorio:** 
-2.  **Configurar Atlas:** Asegurar que el clúster M0 esté activo y se haya configurado el acceso IP.
-3.  **Conexión con Compass:** Conectar MongoDB Compass usando el *Connection String* de Atlas.
-4.  **Carga Inicial:** Importar el CSV del *Amazon Sales Dataset* a una colección temporal.
-5.  **Ejecución de `clean.js`:** Ejecutar el pipeline en `clean.js` para generar la colección final `products`.
-6.  **Validación y Consultas:** Aplicar el esquema de `validation.js` y ejecutar los scripts de `queries.js` para las demos.
+1.  **Clonar este Repositorio: **
+2.  **git clone https://github.com/jzaxml/databaseII.git** 
+3.  **Configurar Atlas:** Asegurar que el clúster M0 esté activo y se haya configurado el acceso IP.
+4.  **Conexión con Compass:** Conectar MongoDB Compass usando el *Connection String* de Atlas.
+5.  **Carga Inicial:** Importar el CSV del *Amazon Sales Dataset* a una colección temporal.
+6.  **Ejecución de `clean.js`:** Ejecutar el pipeline en `clean.js` para generar la colección final `products`.
+7.  **Validación y Consultas:** Aplicar el esquema de `validation.js` y ejecutar los scripts de `queries.js` para las demos.
 #
