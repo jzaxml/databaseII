@@ -24,7 +24,7 @@
         "description": "El precio real debe ser un número positivo (>= 0)"
       },
       "discount_percentage": {
-        "bsonType": ["double", "int", "decimal"],
+        "bsonType": ["double", "int", "decimal" , "string"],
         "minimum": 0,
         "maximum": 100,
         "description": "El porcentaje de descuento debe estar entre 0 y 100"
